@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="507.0" minWidth="381.0" maxHeight="507.0" maxWidth="381.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.dem.LoginRegisterController">
+    <children>
+        <ImageView fitHeight="546.0" fitWidth="465.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../photo/photoForLoginRegiister.jpg" />
+            </image>
+        </ImageView>
+        <TextField fx:id="usernameField" layoutX="20.0" layoutY="107.0" promptText="Имя смешарика" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="107.0" />
+        <PasswordField fx:id="passwordField" layoutX="19.0" layoutY="181.0" promptText="Пароль, рекомендованный Лосяшем" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="181.0" />
+        <Button fx:id="loginButton" layoutX="20.0" layoutY="270.0" onAction="#login" prefHeight="44.0" prefWidth="153.0" text="попасть в Шарарам" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="270.0">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <Button fx:id="registerButton" layoutX="235.0" layoutY="270.0" onAction="#register" prefHeight="44.0" prefWidth="154.0" text="я ещё не смешарик ((" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="270.0">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+    </children>
+</AnchorPane>
