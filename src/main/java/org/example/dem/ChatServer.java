@@ -1,5 +1,7 @@
 package org.example.dem;
 
+import org.example.dem.exception.ClientException;
+import org.example.dem.exception.ServerException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
